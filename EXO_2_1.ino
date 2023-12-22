@@ -7,7 +7,7 @@
 
 #include <PID_v1.h>
 
-#define PIN_INPUT 1
+#define PIN_INPUT 2
 #define PIN_OUTPUT 9
 
 
