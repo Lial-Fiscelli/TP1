@@ -13,8 +13,11 @@ Exercice 1 et Exercice 2 :
 Étape 2 : Mise en place d'un potentiomètre.
 
 1- Placer un potentiomètre sur la plaquette d'essai.
+
 2- Brancher sur la borne de gauche le pin GND.
+
 3- Brancher sur la borne de droite le pin "5V".
+
 4- Brancher sur la borne centrale le pin A0.
 
 
