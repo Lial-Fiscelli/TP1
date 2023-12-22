@@ -5,6 +5,7 @@ Exercice 1 et Exercice 2 :
 
 Étape 1 : Mise en place d'une LED.
 
+
 1- Placer une LED sur la plaquette d'essai
 
 2- Brancher sur la cathode le pin GND via une résistance
@@ -12,7 +13,9 @@ Exercice 1 et Exercice 2 :
 3- Brancher sur l'anode le pin 9 PWM
 
 
+
 Étape 2 : Mise en place d'un potentiomètre.
+
 
 1- Placer un potentiomètre sur la plaquette d'essai.
 
@@ -23,7 +26,9 @@ Exercice 1 et Exercice 2 :
 4- Brancher sur la borne centrale le pin A0.
 
 
+
 Étape 3 : Mise en place d'une photorésistance.
+
 
 1- Placer une photorésistance sur la plaquette d'essai.
 
