@@ -1,5 +1,5 @@
 #include <PID_v1.h>
-const int photores = A1; // entree photoresistance
+const int photores = A2; // entree photoresistance
 const int pot = A0; // entree potentiometre
 const int led = 9; // pin de la led
 double lightLevel; // variable qui stocke le niveaue de lumière entran
