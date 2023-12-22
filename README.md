@@ -3,7 +3,7 @@ Exercice 1 et Exercice 2 :
 
 ![image](https://github.com/Lial-Fiscelli/TP1/assets/154502501/eba9cd74-134b-4109-89e2-af06cade32b3)
 
-Étape 1 : Mise en place d'une LED.
+    Étape 1 : Mise en place d'une LED.
 
 
 1- Placer une LED sur la plaquette d'essai
@@ -14,7 +14,7 @@ Exercice 1 et Exercice 2 :
 
 
 
-Étape 2 : Mise en place d'un potentiomètre.
+    Étape 2 : Mise en place d'un potentiomètre.
 
 
 1- Placer un potentiomètre sur la plaquette d'essai.
@@ -27,7 +27,7 @@ Exercice 1 et Exercice 2 :
 
 
 
-Étape 3 : Mise en place d'une photorésistance.
+    Étape 3 : Mise en place d'une photorésistance.
 
 
 1- Placer une photorésistance sur la plaquette d'essai.
