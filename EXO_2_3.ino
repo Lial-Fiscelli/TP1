@@ -37,11 +37,11 @@ void loop()
   Input = analogRead(PIN_INPUT);//Input prend la valeur analogique de lecture de Pin_INPUT
   myPID.Compute();
   analogWrite(PIN_OUTPUT, Output);//mettre la variable PIN_OUTPUT à l'état de sortie du PID
-  Serial.print("valeur d'entrée =");
-  Serial.print(Input);
-  Serial.print("  ");
-  Serial.print("valeur consigne =");
-  Serial.println(pot_value);
-  delay(500);
+  Serial.print("valeur d'entrée =");//Affiche valeur d'entrée = sur l'ecran 
+  Serial.print(Input);//Affiche la valeur de Input sur l'ecran 
+  Serial.print("  ");//Affiche 2 espaces sur l'ecran
+  Serial.print("valeur consigne =");//Affiche valeur consigne = sur l'ecran 
+  Serial.println(pot_value);//Affiche la valeur de pot_value sur l'ecran 
+  delay(500);//attendre 0.5s
 
 }
