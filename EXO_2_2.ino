@@ -37,8 +37,8 @@ void loop()
   Input = analogRead(PIN_INPUT);//Input prend la valeur de lecture de Pin_INPUT
   myPID.Compute();
   analogWrite(PIN_OUTPUT, Output);//mettre la variable PIN_OUTPUT à l'état de sortie du PID
-  Serial.println(Input);//
-  Serial.println(pot_value);
-  delay(500);
+  Serial.println(Input);//Affiche la valeur de Input sur l'ecran en passant toujours 1 ligne
+  Serial.println(pot_value);//Affiche la valeur de pot_value sur l'ecran en passant toujours 1 ligne
+  delay(500);//attendre 0.5s
 
 }
