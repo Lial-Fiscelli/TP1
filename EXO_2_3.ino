@@ -36,7 +36,7 @@ void loop()
   Setpoint = pot_value;//Setpoint prend la valeur de pot_value
   Input = analogRead(PIN_INPUT);//Input prend la valeur analogique de lecture de Pin_INPUT
   myPID.Compute();
-  analogWrite(PIN_OUTPUT, Output);
+  analogWrite(PIN_OUTPUT, Output);//mettre la variable PIN_OUTPUT à l'état de sortie du PID
   Serial.print("valeur d'entrée =");
   Serial.print(Input);
   Serial.print("  ");
