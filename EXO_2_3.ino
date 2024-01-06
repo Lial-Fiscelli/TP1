@@ -23,7 +23,7 @@ void setup()
 {
   //initialize the variables we're linked to
   Input = analogRead(PIN_INPUT);// variable Input prend la valeur analogique de lecture dePIN_INPUT
-  pinMode(PIN_pot, INPUT);
+  pinMode(PIN_pot, INPUT);// on defini PIN_pot comme une entrée
   Serial.begin(9600);
   //turn the PID on
   myPID.SetMode(AUTOMATIC);
