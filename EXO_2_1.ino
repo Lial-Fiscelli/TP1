@@ -26,7 +26,7 @@ void setup()
   Serial.begin(9600);//Commence l'affichage de l'ecran en 9600
 
   //turn the PID on
-  myPID.SetMode(AUTOMATIC);
+  myPID.SetMode(AUTOMATIC);//Demarrer la regulation PID
 }
 
 void loop()
