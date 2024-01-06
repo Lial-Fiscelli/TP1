@@ -39,7 +39,7 @@ void loop(){
   analogWrite(led, Sortie);  //Ecrire la sortie du PID comme entree MLI de la LED
   
   now = millis(); // Marque du temps
-  if(now - lastMessage > serialPing) {  // A commenter !!!
+  if(now - lastMessage > serialPing) {  // A commenter !!! si intervalle plus grand que celui de serialPing effectuer la boucle
     Serial.print("Consigne = ");
     Serial.print(Consigne);
     Serial.print(" Entree = ");
