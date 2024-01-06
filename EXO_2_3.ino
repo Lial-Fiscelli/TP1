@@ -7,7 +7,7 @@
 
 #define PIN_INPUT 2//on défini la variable PIN_INPUT au pin 2 (entrée)
 #define PIN_OUTPUT 9//on défini la variable PIN_OUTPUT au pin 9 (sortie)
-#define PIN_pot 0
+#define PIN_pot 0//on défini la variable PIN_pot au pin 0
 
 int r_lu = 0;
 int pot_value = 0;
