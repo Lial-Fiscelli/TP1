@@ -22,7 +22,7 @@ PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
 void setup()
 {
   //initialize the variables we're linked to
-  Input = analogRead(PIN_INPUT); // variable Input prend la valeur analogique de PIN_INPUT
+  Input = analogRead(PIN_INPUT); // variable Input prend la valeur analogique de lecture dePIN_INPUT
   pinMode(PIN_pot, INPUT);// on defini PIN_pot comme une entrée
   Serial.begin(9600);//Commence l'affichage de l'ecran en 9600
   //turn the PID on
@@ -31,10 +31,10 @@ void setup()
 
 void loop()
 {
-  pot_value = analogRead(PIN_pot);//pot_value prend la valeur de lecture de PIN_pot
+  pot_value = analogRead(PIN_pot);//pot_value prend la valeur analogique de lecture de PIN_pot
   pot_value = pot_value/4;// pot_value est divisée par 4
   Setpoint = pot_value;//Setpoint prend la valeur de pot_value
-  Input = analogRead(PIN_INPUT);//Input prend la valeur de lecture de Pin_INPUT
+  Input = analogRead(PIN_INPUT);//Input prend la valeur analogique de lecture de Pin_INPUT
   myPID.Compute();
   analogWrite(PIN_OUTPUT, Output);//mettre la variable PIN_OUTPUT à l'état de sortie du PID
   Serial.println(Input);//Affiche la valeur de Input sur l'ecran en passant toujours 1 ligne
