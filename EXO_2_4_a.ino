@@ -67,9 +67,9 @@ void loop(){
         }
       }
       Serial.print(" Kp,Ki,Kd = ");
-      Serial.print(Kp);
+      Serial.print(Kp);//On affiche les valeurs pour verifier qu'elles ont bien ete mises a jour
       Serial.print(",");
-      Serial.print(Ki);
+      Serial.print(Ki);//On affiche les valeurs pour verifier qu'elles ont bien ete mises a jour
       Serial.print(",");
       Serial.println(Kd);  //On affiche les valeurs pour verifier qu'elles ont bien ete mises a jour
       myPID.SetTunings(Kp, Ki, Kd); //On regle les nouveaux parametres du PID et on relance la regulation
