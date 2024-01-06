@@ -26,7 +26,7 @@ void setup()
   pinMode(PIN_pot, INPUT);// on defini PIN_pot comme une entrée
   Serial.begin(9600);//Commence l'affichage de l'ecran en 9600
   //turn the PID on
-  myPID.SetMode(AUTOMATIC);
+  myPID.SetMode(AUTOMATIC);//Demarrer la regulation PID
 }
 
 void loop()
