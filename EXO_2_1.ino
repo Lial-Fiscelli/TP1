@@ -32,7 +32,7 @@ void setup()
 void loop()
 {
   Input = analogRead(PIN_INPUT);// variable Input prend la valeur analogique de lecture de PIN_INPUT
-  myPID.Compute();
+  myPID.Compute();//Faire tourner la boucle PID
   analogWrite(PIN_OUTPUT, Output);//mettre la variable PIN_OUTPUT à l'état de sortie du PID
   Serial.println(Input);//Affiche la valeur de Input sur l'ecran en passant toujours 1 ligne
 }
