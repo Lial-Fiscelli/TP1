@@ -10,7 +10,7 @@
 #define PIN_pot 0 //on défini la variable PIN_pot au pin 0
 
 int r_lu = 0; //la variable r_lu en entier prend la valeur 0
-int pot_value = 0;//la variable pot_value
+int pot_value = 0;//la variable pot_value prend la valeur 0
 
 //Define Variables we'll be connecting to
 double Setpoint, Input, Output;
