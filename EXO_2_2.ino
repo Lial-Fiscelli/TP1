@@ -6,11 +6,11 @@
 #include <PID_v1.h>//importer de la bibliothèque PID_v1.h
 
 #define PIN_INPUT 2//on défini la variable PIN_INPUT au pin 2 (entrée)
-#define PIN_OUTPUT 9
-#define PIN_pot 0
+#define PIN_OUTPUT 9 //on défini la variable PIN_OUTPUT au pin 9 (sortie)
+#define PIN_pot 0 //on défini la variable PIN_pot au pin 0
 
-int r_lu = 0;
-int pot_value = 0;
+int r_lu = 0; //la variable r_lu en entier prend la valeur 0
+int pot_value = 0;//la variable pot_value
 
 //Define Variables we'll be connecting to
 double Setpoint, Input, Output;
