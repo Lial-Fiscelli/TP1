@@ -3,7 +3,7 @@
  * Reading analog input 0 to control analog PWM output 3
  ********************************************************/
 
-#include <PID_v1.h>
+#include <PID_v1.h>//importer de la bibliothèque PID_v1.h
 
 #define PIN_INPUT 2
 #define PIN_OUTPUT 9
